@@ -1,8 +1,11 @@
 # Sample Appliction to integrate with salesforce
 
-Salesforce is a cloud-based CRM that can turbo-charge your business relationships and transform the working lives of your team
+Salesforce is a cloud-based CRM that can turbo-charge your business relationships and
+transform the working lives of your team
 
-Simple Salesforce is a basic Salesforce.com REST API client built for Python 2.6, 2.7, 3.3, 3.4, 3.5 and 3.6. The goal is to provide a very low-level interface to the REST Resource and APEX API, returning a dictionary of the API JSON response.
+Simple Salesforce is a basic Salesforce.com REST API client built for Python 2.6, 2.7,
+3.3, 3.4, 3.5 and 3.6. The goal is to provide a very low-level interface to the REST
+Resource and APEX API, returning a dictionary of the API JSON response.
 SOQL queries to  perform CRUD operations
 
 # To create a new 'Contact' in Salesforce:
@@ -31,5 +34,6 @@ sf.Contact.describe()
 
 These are the related queries to perform operations on object into the salesforce
 You now have a functioning API using Django Rest framework Request and Response objects.
-We have extended the API to be able to handle different format suffixes and have explored how to POST data via the API.
+We have extended the API to be able to handle different format suffixes and have explored
+how to POST data via the API.
 
